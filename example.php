@@ -14,7 +14,7 @@
  */
 
 
-// Step 1: Get the PaylifeSMS API library from https://github.com/paylife/paylife-sms-api,
+// Step 1: Get the PaylifeSMS API library from https://github.com/matsaina/paylife.git,
 // following the instructions to install it with Composer.
 
 require_once 'src/Class_Paylife_SMS_API.php';
