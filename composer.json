@@ -1,0 +1,23 @@
+{
+  "name": "paylife/paylife-sms-api",
+  "description": "PaylifeSMS API is build for PaylifeSMS - Bulk SMS Application For Marketing",
+  "type": "library",
+  "license": "MIT",
+  "version": "2.7.0",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Matsaina Koech",
+      "email": "matsaina@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "ext-curl": "*"
+  }
+}
