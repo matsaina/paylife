@@ -4,7 +4,7 @@
 PaylifeSMS API is build for PaylifeSMS - Bulk SMS Application For Marketing
 
 ### Step 2:
-set your API_KEY 
+set your API_KEY from `https://portal.paylifesms.com/sms-api/info` (your application install url)
 ```php
 $api_key = '--YOURAPIKEY--';
 ```
@@ -13,6 +13,7 @@ Change the from number below. It can be a valid phone number or a String
 ```php
 $from = '254721000000';
 ```
+
 ### Step 4:
 the number we are sending to - Any phone number
 ```php
